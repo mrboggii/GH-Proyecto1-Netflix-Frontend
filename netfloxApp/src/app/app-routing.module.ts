@@ -1,15 +1,12 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { LoginComponent } from './login/login.component';
-import { MoviesDisplayComponent } from './movies-display/movies-display.component';
+import { SignupComponent } from './containers/signup/signup.component';
+import { LoginComponent } from './containers/login/login.component';
 
 
 const routes: Routes = [
-  {path:"", redirectTo: "moviesDisplay", pathMatch:"full"},
-  {path:"moviesDisplay", component:MoviesDisplayComponent},
-  {path:"login", component:LoginComponent}
-  {path: "perfil", }
-
+  { path: 'signup', component: SignupComponent },
+  { path: 'login', component:LoginComponent}
 ];
 
 @NgModule({
@@ -17,4 +14,3 @@ const routes: Routes = [
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
-

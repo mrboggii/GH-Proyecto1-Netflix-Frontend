@@ -1,0 +1,14 @@
+<div class="loginContainer">
+    <h2>Login Form</h2>
+    <form #loginForm="ngForm" (submit)="login(loginForm)">
+        <input type="username" name="username" ngModel
+        username
+        required
+        placeholder="Introduce your username">
+        <input type="password" 
+        required
+        name="password" ngModel
+         placeholder="Introduce your password">
+        <button type="submit">Login</button>
+    </form>
+</div>

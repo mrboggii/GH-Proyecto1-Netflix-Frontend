@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "netfloxApp": {
+    "Fronted": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/netfloxApp",
+            "outputPath": "dist/Fronted",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -28,6 +28,7 @@
               "src/assets"
             ],
             "styles": [
+              "src/theme.less",
               "src/styles.scss"
             ],
             "scripts": []
@@ -66,18 +67,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "netfloxApp:build"
+            "browserTarget": "Fronted:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "netfloxApp:build:production"
+              "browserTarget": "Fronted:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "netfloxApp:build"
+            "browserTarget": "Fronted:build"
           }
         },
         "test": {
@@ -114,15 +115,19 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "netfloxApp:serve"
+            "devServerTarget": "Fronted:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "netfloxApp:serve:production"
+              "devServerTarget": "Fronted:serve:production"
             }
           }
         }
       }
-    }},
-  "defaultProject": "netfloxApp"
+    }
+  },
+  "defaultProject": "Fronted",
+  "cli": {
+    "analytics": "1fd32ad2-11e2-4a00-9860-caa8502e3391"
+  }
 }
