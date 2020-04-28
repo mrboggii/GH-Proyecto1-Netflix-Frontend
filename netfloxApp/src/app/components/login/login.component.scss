@@ -1,0 +1,20 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
+.btn{
+    background-color:orange;
+    border:yellow;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+
+}

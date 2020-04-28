@@ -1,19 +1,22 @@
-@import '../../../colors.scss';
-
-header{
-    background-color:$AzulPetroleo ;
-    color:$girasol;
-    display: flex;
-    justify-content: space-between;
-    font-size: 1.2em;
-    padding: 0.8em;
-    a{
-        all:unset;
-        cursor: pointer;
-    }
-    .guestZone,.userZone{
-        a{
-            padding: 0.5em;
-        }
-    }
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+li{
+    list-style:none;
+}
+.net{
+    color: red;
+    border: none;
+    font-size: 15px;
+    margin-top: 4px;
+    pointer-events: none;
+    cursor: default;
+}
+.clas{
+    color:yellow;
+    font-size: 30px;
+    margin-right: 3px;
+    padding-top: 0;
+    font-family: 'Dancing Script';
+}
+.bg-dark {
+    background-color: orange!important;
 }

@@ -1,0 +1,35 @@
+
+.container-fluid {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+
+.caja-derecha {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 7%;
+  
+}
+.titulo {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 50px;
+}
+.caja-izq {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.texto{
+    text-align: center;
+}
+.btn{
+    background-color: orange;
+    border-color: yellow;
+}
+

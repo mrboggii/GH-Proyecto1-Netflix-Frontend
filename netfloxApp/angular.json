@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "Fronted": {
+    "AlquiNetflixFront": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/Fronted",
+            "outputPath": "dist/AlquiNetflixFront",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -28,8 +28,9 @@
               "src/assets"
             ],
             "styles": [
-              "src/theme.less",
-              "src/styles.scss"
+              "src/styles.scss",
+              "node_modules/@fortawesome/fontawesome-free/css/all.css"
+
             ],
             "scripts": []
           },
@@ -67,18 +68,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "Fronted:build"
+            "browserTarget": "AlquiNetflixFront:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "Fronted:build:production"
+              "browserTarget": "AlquiNetflixFront:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "Fronted:build"
+            "browserTarget": "AlquiNetflixFront:build"
           }
         },
         "test": {
@@ -115,19 +116,15 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "Fronted:serve"
+            "devServerTarget": "AlquiNetflixFront:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "Fronted:serve:production"
+              "devServerTarget": "AlquiNetflixFront:serve:production"
             }
           }
         }
       }
-    }
-  },
-  "defaultProject": "Fronted",
-  "cli": {
-    "analytics": "1fd32ad2-11e2-4a00-9860-caa8502e3391"
-  }
+    }},
+  "defaultProject": "AlquiNetflixFront"
 }

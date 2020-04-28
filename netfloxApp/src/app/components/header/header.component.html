@@ -1,12 +1,20 @@
-<header>
-    <a [routerLink]="['/']" routerLinkActive="active">Home</a>
-    <div class="userZone" *ngIf="userService.getUser() as user">
-      <a [routerLink]="['/profile']" routerLinkActive="active">{{user.email}}</a>
-      <a>Logout</a>
+<nav id="LaputaNav" class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand clas" href="#">Notflex</a>
+    
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" routerLink="register">Registro</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="login">Login</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="user">Usuario</a>
+        </li>
+      </ul>
     </div>
-    <div class="guestZone" *ngIf="!userService.getUser()">
-      <a [routerLink]="['/login']" routerLinkActive="active">Login</a>
-      <a [routerLink]="['/signup']" routerLinkActive="active">SignUp</a>
-    </div>
-  </header>
-  
+  </nav>
