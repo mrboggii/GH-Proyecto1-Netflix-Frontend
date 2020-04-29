@@ -15,9 +15,9 @@ El usuario se registraba, y mediante pagos online o tarigas mensuales podia acce
 y solicitar el envio del producto deseado. Teniendo en cuenta las peliculas populares para ayudar al usuario
 en su eleccion, al igual que el stock disponible y las fechas de duracion del alquiler.
 
-En este repositorio ```bash git clone https://github.com/mrboggii/GeeksHubs---P5-Buscador-de-Peliculas``` 
+- En este repositorio ```bash git clone https://github.com/mrboggii/GeeksHubs---P5-Buscador-de-Peliculas``` 
 hemos depositado la parte del Frontend.
-El backend en el que nos hemos apoyado (y creado) para este proyecto lo tenemos en:
+- El backend en el que nos hemos apoyado (y creado) para este proyecto lo tenemos en:
 ```https://github.com/antony0110/GH-Proyecto1-Netflix-Backend```
 
 ### Tecnologias utilizadas (en el front) / Herramientas 🛠️
@@ -28,14 +28,14 @@ El backend en el que nos hemos apoyado (y creado) para este proyecto lo tenemos 
 4. GitFlow
 5. GitHub
 
--```npm i``` -para instalar los recursos necesarios.-
--```ng serve``` -para iniciar el proyecto.-
+- ```npm i``` -para instalar los recursos necesarios.-
+- ```ng serve``` -para iniciar el proyecto.-
 
 ### Autores ✒️
 
-Ioan Bogdan Prutean  ```https://github.com/mrboggii/```
-Antony Gomez ```https://github.com/antony0110```
-Sebastian Garatti  ```https://github.com/sebbeg75```
+- Ioan Bogdan Prutean  ```https://github.com/mrboggii/```
+- Antony Gomez ```https://github.com/antony0110```
+- Sebastian Garatti  ```https://github.com/sebbeg75```
 
 ### Licencia 📄
 Licencia (Apache) .
