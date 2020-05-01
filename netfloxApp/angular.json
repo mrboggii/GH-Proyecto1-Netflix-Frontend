@@ -30,7 +30,6 @@
             "styles": [
               "src/styles.scss",
               "node_modules/@fortawesome/fontawesome-free/css/all.css"
-
             ],
             "scripts": []
           },
@@ -125,6 +124,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "AlquiNetflixFront"
+    }
+  },
+  "defaultProject": "AlquiNetflixFront",
+  "cli": {
+    "analytics": "14ba107d-7c21-4636-a754-91de285b0c7f"
+  }
 }

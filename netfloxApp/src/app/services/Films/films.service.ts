@@ -13,6 +13,6 @@ allFilms = [];
 
   // GET all films
   getAllFilms(){
-    return this.http.get<any>(environment.APIROOT + '/films/');
+    return this.http.get<any>(environment.APIROOT + '/movie/movies');
   }
 }
